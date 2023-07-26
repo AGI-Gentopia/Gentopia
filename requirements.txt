@@ -12,7 +12,6 @@ torch==2.0.1
 transformers~=4.29.1
 uvicorn==0.22.0
 pinecone-client
-chromadb=0.3.26
 streamlit~=1.23.1
 python-dotenv~=1.0.0
 rich~=13.3.5
