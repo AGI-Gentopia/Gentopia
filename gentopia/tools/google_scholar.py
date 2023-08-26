@@ -35,7 +35,7 @@ class SearchAuthorByName(BaseTool):
                 'citation': it['citedby'],
                 }))
         if not ans:
-            return "no furthur information available"
+            return "no further information available"
         return '\n\n'.join(ans)
 
     async def _arun(self, *args: Any, **kwargs: Any) -> Any:
@@ -72,7 +72,7 @@ class SearchAuthorByInterests(BaseTool):
                 'citation': it['citedby'],
                 }))
         if not ans:
-            return "no furthur information available"
+            return "no further information available"
         return '\n\n'.join(ans)
 
     async def _arun(self, *args: Any, **kwargs: Any) -> Any:
@@ -115,7 +115,7 @@ class AuthorUID2Paper(BaseTool):
                 'citation': it['num_citations'],
                 }))
         if not ans:
-            return "no furthur information available"
+            return "no further information available"
         return '\n\n'.join(ans)
 
     async def _arun(self, *args: Any, **kwargs: Any) -> Any:
@@ -157,7 +157,7 @@ class SearchPaper(BaseTool):
                 'citation': it['num_citations'],
                 }))
         if not ans:
-            return "no furthur information available"
+            return "no further information available"
         return '\n\n'.join(ans)
 
     async def _arun(self, *args: Any, **kwargs: Any) -> Any:
@@ -198,7 +198,7 @@ class SearchRelatedPaper(BaseTool):
                 'citation': it['num_citations'],
                 }))
         if not ans:
-            return "no furthur information available"
+            return "no further information available"
         return '\n\n'.join(ans)
 
     async def _arun(self, *args: Any, **kwargs: Any) -> Any:
@@ -239,7 +239,7 @@ class SearchCitePaper(BaseTool):
                 'citation': it['num_citations'],
                 }))
         if not ans:
-            return "no furthur information available"
+            return "no further information available"
         return '\n\n'.join(ans)
 
     async def _arun(self, *args: Any, **kwargs: Any) -> Any:
